@@ -3,7 +3,7 @@
 theme: default
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: /pictures/warren-young-adult.jpg
+background: /images/warren-young-adult.jpg
 # apply any windi css classes to the current slide
 class: 'text-center'
 # https://sli.dev/custom/highlighters.html
@@ -24,12 +24,12 @@ css: unocss
 
 Learning Analytics Charts That Rock! 🤘
 
-<logos-twitter /> // [@quitterie_lcs](https://twitter.com/quitterie_lcs) // [@julienmaupetit](https://twitter.com/julienmaupetit) // [@open_fun](https://twitter.com/open_fun) // <logos-twitter />
+<logos-twitter /> [@quitterie_lcs](https://twitter.com/quitterie_lcs) // <logos-mastodon-icon /> [@jmaupetit](https://mamot.fr/@jmaupetit) // <logos-twitter /> [@open_fun](https://twitter.com/open_fun)
 
 
 ---
 layout: image-right
-image: /pictures/warren-middle-age.jpg
+image: /images/warren-middle-age.jpg
 src: sections/limits-potsie.md
 ---
 
@@ -40,7 +40,7 @@ src: sections/origin-warren.md
 
 ---
 layout: image-right
-image: /pictures/warren-sandwich.jpg
+image: /images/warren-sandwich.jpg
 src: sections/use-cases-warren.md
 ---
 
@@ -56,7 +56,7 @@ Insert QR code slide here
 
 ::right::
 
-<img src="/pictures/logo-france-universite-numerique.svg"  width="300">
-<img src="/pictures/logo-openfun.png"  width="300">
-<img src="/pictures/logo-openedx.png" width="300">
-<img src="/pictures/logo-france-relance.svg" width="150">
+<img src="/images/logo-france-universite-numerique.svg"  width="300">
+<img src="/images/logo-openfun.png"  width="300">
+<img src="/images/logo-openedx.png" width="300">
+<img src="/images/logo-france-relance.svg" width="150">
