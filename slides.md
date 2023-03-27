@@ -29,7 +29,7 @@ Learning Analytics Charts That Rock! 🤘
 
 ---
 layout: image-right
-image: pictures/warren-middle-age.jpg
+image: /pictures/warren-middle-age.jpg
 src: sections/limits-potsie.md
 ---
 
@@ -40,7 +40,7 @@ src: sections/origin-warren.md
 
 ---
 layout: image-right
-image: pictures/warren-sandwich.jpg
+image: /pictures/warren-sandwich.jpg
 src: sections/use-cases-warren.md
 ---
 
