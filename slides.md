@@ -19,7 +19,7 @@ transition: slide-left
 css: unocss
 ---
 
-# 🔥 Potsie v2 💥 
+# 🔥 Potsie v2 💥
 
 
 Learning Analytics Charts That Rock! 🤘
@@ -58,5 +58,5 @@ Insert QR code slide here
 
 <img src="/pictures/logo-france-universite-numerique.svg"  width="300">
 <img src="/pictures/logo-openfun.png"  width="300">
-<img src= "pictures/logo-openedx.png" width="300">
-<img src= "pictures/logo-france-relance.svg" width="150">
+<img src="/pictures/logo-openedx.png" width="300">
+<img src="/pictures/logo-france-relance.svg" width="150">
