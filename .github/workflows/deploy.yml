@@ -9,9 +9,7 @@ jobs:
         with:
           node-version: '14'
       - name: Install dependencies
-        run: npm install
-      - name: Install slidev
-        run:  npm i -g @slidev/cli
+        run: yarn install
       - name: Build
         run: slidev build --base /2023-openedx-con-warren
       - name: Deploy pages
