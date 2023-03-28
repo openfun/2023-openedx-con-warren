@@ -1,16 +1,18 @@
 # Warren is born with xAPI
 
-How to make dataviz with an LRS?
+How to make data visualization with an LRS?
 
 ## Architecture
 
-📦 Backend as PyPI package: API for learning indicators computing <br>
-📊 Frontend as a React component library based on Apache E-Charts
+💾 LRS as the primary data source <br />
+📦 FastAPI backend serving indicators <br />
+🧮 Apache Airflow for complex indicators calculation <br />
+📊 React frontend components for charts
 
-## Distribution
+## Extensibility
 
-🛠 SDK for learning analytics visualization <br>
-🔌 Plugin architecture
+- plugin architecture (backend)
+- npm packages (frontend)
 
 ::right::
 
@@ -20,17 +22,18 @@ flowchart TB
   lrs[(LRS)]
 
   subgraph warren [Warren]
-    backend[Backend]
-    component[Components]
+    backend[FastAPI]
+    component[React components]
     apache_airflow["Apache Airflow"]
-    persistence[(Persistence)]
+    persistence[(Warren database)]
 
   end
-  charts["📊 📉 📈"]
+  charts["Frontend 📊 📉 📈"]
   lrs -. xAPI .-> backend
+  lrs -. xAPI .-> apache_airflow
   backend --> component
-  backend -. Indicator computing persistence .-> persistence
-  persistence --> apache_airflow --> component
+  apache_airflow --> persistence
+  persistence --> backend
   component --> charts
 
 ```
@@ -44,5 +47,9 @@ h1 {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+}
+
+.mermaid {
+  text-align: center;
 }
 </style>
