@@ -111,38 +111,47 @@ layout: full
 
 # Check this out!
 
-<div class="grid grid-cols-2 gap-4 credits">
-  <div class="grid grid-cols-2 gap-4">
-    <div>
-      <a href="https://openfun.github.io/2023-openedx-con-warren/">
-        Slides
-      </a>
-      <br/>
-      <img src="/images/qr-code-slides.png" />
-    </div>
-    <div>
-      <logos-github-icon />
-      <a href="https://github.com/openfun/warren">
-        openfun/warren
-      </a>
-      <img src="/images/qr-code-project.png" />
-    </div>
+<div class="grid grid-cols-3 gap-4 credits">
+  <div>
+    <a href="https://openfun.github.io/2023-openedx-con-warren/">
+      Slides
+    </a>
+    <br/>
+    <img src="/images/qr-code-slides.png" />
   </div>
   <div>
+    <logos-github-icon />
+    <a href="https://github.com/openfun/warren">
+      openfun/warren
+    </a>
+    <img src="/images/qr-code-project.png" />
+  </div>
+  <div>
+    <logos-discord-icon />
+    <a href="https://discord.com/invite/vYx6YWxJCS">
+      OpenFUN
+    </a>
+    <img src="/images/openfun-discord-invite.png" alt="OpenFUN Discord invitation"/>
+  </div>
+</div>
+
+<div class="grid grid-cols-2 gap-4">
+  <div>
       <img class="logo" src="/images/logo-openfun.png"  width="200" />
-      <br />
+  </div>
+  <div>
       <img class="logo" src="/images/logos-finance.png" />
   </div>
 </div>
 
 <style>
 .credits {
-  margin-top: 5rem;
+  margin-top: 1rem;
   text-align: center;
 }
 .logo {
   display: block;
-  margin: 1rem auto;
+  margin: 1rem auto 0;
 }
 </style>
 
